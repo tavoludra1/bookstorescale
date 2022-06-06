@@ -1,6 +1,6 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: 'yarn install && yarn dev' # runs during prebuild
+  - init: 'yarn install && yarn dev && yarn add @prisma/client ' # runs during prebuild
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
